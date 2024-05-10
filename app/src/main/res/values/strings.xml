@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TapOn</string>
+    <string name="tap_here">Tap Here</string>
+    <string name="game_over">Game Over!</string>
+    <string name="restart">Restart</string>
+    <string name="image">image</string>
+    <string name="image_description">Your Image Description</string>
+    <string name="addition_game">Addition game</string>
+    <string name="submit">Submit</string>
+    <string name="enter_your_guess">Enter your guess</string>
+    <string name="guess_a_number_between_1_and_100">Guess a number between 1 and 100.</string>
+    <string name="restartthis">Restart</string>
+    <string name="image1">image1</string>
+    <string name="game_over1">Game Over!</string>
+    <string name="your_image">Your Image</string>
+    <string name="restarthere">Restart</string>
+    <string name="submith">Submit</string>
+    <string name="enter_your_answer">Enter your answer</string>
+</resources>

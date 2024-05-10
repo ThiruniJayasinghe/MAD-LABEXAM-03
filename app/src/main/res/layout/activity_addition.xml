@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".AdditionGameActivity">
+
+    <TextView
+        android:id="@+id/additionQuestionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text=""
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+
+    <EditText
+        android:id="@+id/answerEditText"
+        android:layout_width="201dp"
+        android:layout_height="61dp"
+        android:layout_below="@id/additionQuestionTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="@string/enter_your_answer"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/submitAnswerButton"
+        android:layout_width="197dp"
+        android:layout_height="73dp"
+        android:layout_below="@id/answerEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#044A81"
+        android:text="@string/submith"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submitAnswerButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="215dp"
+        android:layout_height="63dp"
+        android:layout_below="@id/resultTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#044A81"
+        android:text="@string/restarthere"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+    <ImageView
+        android:id="@+id/bottomImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/restartButton"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:src="@drawable/view1"
+    android:contentDescription="@string/your_image" />
+
+
+</RelativeLayout>
